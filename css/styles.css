@@ -45,8 +45,7 @@ body {
     display: flex;
     flex-direction: column;
     background: #fff;
-    box-shadow: 0 2px 4px rgba(44, 35, 35, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
     padding: 20px;
     border-radius: 8px;
 }
@@ -56,12 +55,11 @@ body {
     font-size: 17px;
     border: 1px solid #dddfe2;
     color: #1d2129;
+    outline: none;
     border-radius: 6px;
-    margin-bottom: 15px;
 }
 
 .container .right .form input:focus {
-    outline: none;
     box-shadow: 0 0 5px rgba(66, 133, 244, 0.7);
     border: 1px solid rgba(66, 133, 244, 0.7);
 }
@@ -69,6 +67,7 @@ body {
 .container .right .form .login-btn {
     background: #1877f2;
     border: none;
+    outline: none;
     font-size: 20px;
     line-height: 48px;
     padding: 0 16px;
@@ -111,6 +110,7 @@ body {
     line-height: 48px;
     padding: 0 16px;
     color: #fff;
+    border-radius: 6px;
     cursor: pointer;
     transition: all 0.2s ease;
 }
